@@ -1,0 +1,22 @@
+{
+  "name": "box2d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "types": "bin/index.d.ts",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "one":"node %AppData%/npm/node_modules/ts-one/index.js",
+    "test": "echo "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.6",
+    "style-loader": "^0.19.1",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2"
+  }
+}

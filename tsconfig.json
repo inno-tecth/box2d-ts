@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+      "outDir": "box2d/",
+      "declaration": true,
+      "noImplicitAny": true,
+      "module": "commonjs",
+      "target": "es5",
+      "lib": ["es2016", "dom", "scripthost"],
+      "sourceMap": true
+  },
+  "include": [
+      "src/index.ts"
+  ],
+  "exclude": [
+      "node_modules"
+  ]
+}
